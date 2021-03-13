@@ -81,10 +81,11 @@ _:-ms-fullscreen,
 }
 
 .fieldset__legend {
+  display: contents;
   width: 100%;
   margin-bottom: 1.125rem;
+  padding: 0;
   color: inherit;
-  background-color: #7e96a7;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.6875rem
@@ -128,6 +129,7 @@ _:-ms-fullscreen,
   padding-top: 0.5625rem;
   padding-bottom: 0.5625rem;
   color: #fff;
+  background-color: #7e96a7;
   line-height: 1.125rem;
 }
 
